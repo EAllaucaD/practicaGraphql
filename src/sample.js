@@ -12,5 +12,14 @@ export const teams = [
         _id: 2,
         team: 'Chelsea',
         country: 'England'
+    },
+    {
+        _id: 3,
+        team: 'Manchester City',
+        country: 'England'
+    },{
+        _id: 4,
+        team: 'Manchester United',
+        country: 'England'
     }
 ]

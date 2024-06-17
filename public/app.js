@@ -1,4 +1,8 @@
-window.onload = async () => {
+window.onload = () => {
+    document.getElementById('fetch-teams').addEventListener('click', fetchTeams);
+};
+
+const fetchTeams = async () => {
     const query = `
     {
         teams {
